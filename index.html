@@ -140,7 +140,7 @@
             target="_blank" 
             rel="noopener noreferrer" 
             class="cta-button"
-			onclick="{ fbq('track', 'ViewContent', {content_name: 'Static', content_category: 'Music'}); }"
+			onclick="if(typeof fbq !== 'undefined') { fbq('track', 'ViewContent', {content_name: 'Static', content_category: 'Music'}); }"
         >
             Listen to Spotify
         </a>
